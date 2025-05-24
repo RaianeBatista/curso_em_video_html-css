@@ -1,4 +1,4 @@
-<img src="..images/mascote.png" align="right" width="300">
+<img src="./modulo_01/exercicios/images/mascote.png" align="right" width="300">
 
 # Curso de HTML5 e CSS3
 
