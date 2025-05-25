@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes Externas</title>
+    <style>
+      @font-face {
+        font-family: "Love";
+        src: url("fonts/Harmonize\ Free.otf") format("opentype"),
+          url("fonts/Harmonize\ Free.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      h1 {
+        font-family: "Love", Times, serif;
+        font-size: 3em;
+        font-weight: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TÍTULO</h1>
+    <h1>OLÁ MUNDO!</h1>
+    <p>
+      Para acessar fontes externas, temos por exemplo o site
+      <a href="https://www.dafont.com/pt/" target="_blank" rel="unfollow"
+        >DaFonte</a
+      >
+    </p>
+    <h2>Tipos de format()</h2>
+    <ul>
+      <li>opentype(otf)</li>
+      <li>truetype(ttf)</li>
+      <li>embedded-opentype</li>
+      <li>truetype-att (Apple Advanced Typography)</li>
+      <li>svg</li>
+    </ul>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+      laboriosam quidem architecto officiis, nisi eos dicta error consequuntur
+      ipsam necessitatibus perspiciatis enim aperiam nesciunt itaque, provident
+      officia eligendi sit exercitationem.
+    </p>
+  </body>
+</html>
