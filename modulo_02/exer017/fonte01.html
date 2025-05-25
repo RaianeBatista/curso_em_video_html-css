@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes em CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Trabalhando com fontes</h1>
+    <h2>No CSS, tem-se disponíveis as seguintes medidas:</h2>
+    <p>
+      A recomendação oficial do W3C é de se usar as medidas
+      <strong>px</strong> e <strong>em</strong>.
+    </p>
+    <ul>
+      <li>
+        <strong>Medidas Absolutas</strong>
+        <ul>
+          <li>Centímetros (cm)</li>
+          <li>Milímetros (mm)</li>
+          <li>Polegadas (in)</li>
+          <li>Pixel (px)</li>
+          <li>Ponto (pt) — tipografia de papel, não recomendado para telas</li>
+          <li>Paica (pc) — tipografia de papel, não recomendado para telas</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Medidas Relativas</strong>
+        <ul>
+          <li>em — relativa ao tamanho natural da fonte</li>
+          <li>ex — relativa à altura x de uma fonte</li>
+          <li>rem — relativa ao root da página (html)</li>
+          <li>vw — relativa à largura da viewport/tamanho da tela</li>
+          <li>vh — relativa à altura da viewport/altura da tela</li>
+          <li>% — porcentagem</li>
+        </ul>
+      </li>
+    </ul>
+    <p><strong>Atenção!</strong></p>
+    <p>A medida <strong>em</strong> parte do tamanho padrão de 16px do CSS.</p>
+    <ul>
+      <li>1em = 16px</li>
+      <li>2em = 32px</li>
+      <li>0.5em = 8px</li>
+      <li>1.5em = 24px (16px * 1.5em)</li>
+    </ul>
+    <h2>Importante</h2>
+    <p>Para usar as fontes em negrito no CSS:</p>
+    <p>
+      font-weigh: as fontes possuem peso de 100 até 900, bold, bolder, lighter,
+      normal.
+    </p>
+    <p>Para usar as fontes em itálico no CSS:</p>
+    <p>font-style</p>
+    <p>Para usar as fontes em sublinhado no CSS:</p>
+    <p>text-decoration: underline</p>
+
+    <h2>O que é a propriedade Shorthand? (shorthand font)</h2>
+    <p>Significa condensar todas as confiugurações em uma única linha no CSS</p>
+    <p>Na seguinte ordem:</p>
+<ol>
+    <li>font-style</li>
+    <li>font-weight</li>
+    <li>font-size</li>
+    <li>font-family</li>
+</ol>
+<p>Observe abaixo um exemplo de shorthand:</p>
+<p>h1 { <br>
+    <strong>font: italic bolber 3em  'Work Sans', sans-serif;
+    </strong>
+    <br>}
+
+    <p>Outro exemplo</p>
+<p>h2 {<br>
+<strong>font: bold 2em 'Work Sans', sans-serif;</strong>
+<br> }</p>
+
+<p>A ordem no shorthand deve ser obedecida rigorosamente.</p>
+  </body>
+</html>
