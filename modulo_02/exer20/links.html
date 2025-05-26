@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      a {
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      a:visited {
+        color: brown;
+      }
+
+      a:hover {
+        color: black;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: yellow;
+      }
+
+      /* a::after {
+    content: '[link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgrey;
+} */
+      .especial::before {
+        content: "🌐";
+      }
+      .especial::after {
+        content: "🌐";
+      }
+      .especial {
+        background-color: cadetblue;
+      }
+      a::before {
+        content: "➡️";
+      }
+
+      a::after {
+        content: "⬅️";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Personalizando Links</h1>
+    <h1>As teclas windows + ç do teclado, adicionam caracteres</h1>
+    <ul>
+      <li>
+        <a href="https://github.com/RaianeBatista" target="_blank"
+          >Repositório Github</a
+        >
+      </li>
+      <li>
+        <a href="https://www.youtube.com/@DevScience-i8m" class="especial"
+          >Canal do YouTube</a
+        >
+      </li>
+      <li><a href="https://www.cursoemvideo.com/">Site do CursoemVídeo</a></li>
+    </ul>
+
+    <h1>Observação</h1>
+    <h2>Propriedades do CSS:</h2>
+    <p># referente ao id do elemento HTML</p>
+    <p>. o ponto é referente a classes em elementos no HTML</p>
+    <p>: dois pontos referente a pseudo classe</p>
+    <p>:: referente a pseudo elementos</p>
+    <p>> referente a children/filho, classes dentro de div</p>
+  </body>
+</html>
